@@ -22,7 +22,7 @@ const svgConfig = {
   mode: {
     symbol: {
       dest: ".", // вихідна папка для спрайту
-      sprite: "sprite.svg",
+      sprite: "sprite.svg", // ім’я файлу спрайту
     },
   },
 };
