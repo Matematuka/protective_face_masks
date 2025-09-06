@@ -1,6 +1,13 @@
 @use "base/variables" as *;
 
 @font-face {
+  font-family: "Rubik";
+  src: url("../../fonts/Rubik-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Open Sans";
   src: url("../../fonts/OpenSans-Regular.woff") format("woff");
   font-weight: 400;
