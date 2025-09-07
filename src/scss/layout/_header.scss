@@ -1,0 +1,42 @@
+@use "../base/variables" as *;
+
+.header_container {
+  position: relative;
+  padding: 20px 320px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 161px;
+  height: 40px;
+}
+
+.menu_navigation {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin-left: auto;
+}
+
+.menu_link-active {
+  color: $dark;
+  line-height: 1.87;
+}
+
+.btn {
+  font-family: $font-family-heading;
+  font-weight: $medium;
+  font-size: 14px;
+  line-height: 2.14;
+  width: 123px;
+  height: 47px;
+  text-align: center;
+  color: $white;
+  background-color: $blue;
+  border-radius: 8px;
+  margin-left: 45px;
+}
