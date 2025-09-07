@@ -2,7 +2,7 @@
 
 .header_container {
   position: relative;
-  padding: 20px 320px 0;
+  padding: 20px 390px 0;
 }
 
 .menu {
@@ -13,6 +13,7 @@
 .logo {
   width: 161px;
   height: 40px;
+  flex-shrink: 0;
 }
 
 .menu_navigation {
@@ -39,4 +40,5 @@
   background-color: $blue;
   border-radius: 8px;
   margin-left: 45px;
+  flex-shrink: 0;
 }

@@ -1,0 +1,86 @@
+@use "../base/variables" as *;
+
+.main_title {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 80px 390px 0;
+}
+
+.main_container {
+  display: flex;
+  gap: 88px;
+}
+.title_info {
+  max-width: 555px;
+}
+
+.title_text_accent {
+  font-family: $font-family-heading;
+  font-weight: $medium;
+  font-size: 14px;
+  line-height: 2.14;
+  color: $accent;
+}
+
+.title_header {
+  font-family: $font-family-heading;
+  font-weight: $bold;
+  font-size: 72px;
+  line-height: 1.14;
+  color: $dark;
+  margin-top: 30px;
+}
+
+.title_text {
+  margin-top: 40px;
+}
+
+.button_group {
+  display: flex;
+  gap: 20px;
+  margin-top: 54px;
+}
+
+.shop_now {
+  font-family: $font-family-heading;
+  font-weight: $medium;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px 24px;
+  width: 115px;
+  height: 46px;
+  color: $white;
+  background-color: $blue;
+  box-shadow: 0 10px 15px 0 rgba(27, 95, 193, 0.19);
+}
+
+.learn_more {
+  font-family: $font-family-heading;
+  font-weight: $medium;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: center;
+  border: 1px solid $accent;
+  border-radius: 8px;
+  padding: 8px 24px;
+  width: 125px;
+  height: 46px;
+  color: $accent;
+}
+
+.title_img {
+  position: relative;
+  right: 0;
+  flex-shrink: 0;
+}
+
+.woman_1 {
+  width: 496px;
+  height: 744px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}

@@ -11,6 +11,7 @@ body {
   letter-spacing: $letter-spacing-base;
   color: $grey;
   background-color: $white;
+  max-width: 1920px;
   min-height: 100vh;
   margin: 0;
 }
@@ -30,10 +31,10 @@ h6 {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50%;
-  height: 100%;
+  width: 51%;
+  height: 891px;
   background-image: url("../../../dist/images/background.jpg");
   background-size: cover;
   background-position: center;
-  border-bottom-left-radius: 100px;
+  border-bottom-left-radius: 25%;
 }
