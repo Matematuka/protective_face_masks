@@ -3,9 +3,10 @@
 .full_bg {
   position: absolute;
   width: 100%;
-  height: 2491px;
+  height: 100%;
   background-image: url("../../../dist/images/diagnostic-lab-content-gradient-bg\ 1.png");
   background-size: cover;
+  z-index: -1;
 }
 
 .about_container {
@@ -33,9 +34,6 @@
 }
 
 .icon {
-  //   position: relative;
-  //   right: 60px;
-  //   top: 45px;
   display: flex;
   width: 40px;
   height: 40px;
@@ -44,4 +42,40 @@
 .advantage_text {
   margin-top: 15px;
   width: 205px;
+}
+
+.first_article {
+  display: flex;
+  gap: 47px;
+}
+
+.first_article-img {
+  flex-shrink: 0;
+}
+
+.woman_2 {
+  width: 572px;
+  height: 616px;
+}
+
+.respirators_title {
+  font-family: $font-family-heading;
+  font-weight: $bold;
+  line-height: 1.04;
+  color: $dark;
+  font-size: 48px;
+}
+
+.respirators_description {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  font-size: 16px;
+  line-height: 1.87;
+  color: $grey;
+  max-width: 510px;
+  margin-top: 26px;
+
+  span {
+    font-weight: $bold;
+  }
 }
