@@ -1,18 +1,22 @@
 @use "../base/variables" as *;
+.about {
+  background-color: $white;
+}
 
 .full_bg {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 1920px;
+  height: 2491px;
   background-image: url("../../../dist/images/diagnostic-lab-content-gradient-bg\ 1.png");
   background-size: cover;
-  z-index: -1;
+  // z-index: -1;
 }
 
-.about_container {
-  max-width: 1141px;
+.advantages {
+  padding: 0 390px;
   margin: 0 auto;
   margin-top: 72px;
+  background-color: $light_blue;
 }
 
 .advantages_list {
@@ -44,6 +48,11 @@
   width: 205px;
 }
 
+.respirators {
+  padding: 0 390px;
+  padding-top: 133px;
+}
+
 .first_article {
   display: flex;
   gap: 47px;
@@ -51,6 +60,7 @@
 
 .first_article-img {
   flex-shrink: 0;
+  z-index: 1;
 }
 
 .woman_2 {
@@ -64,6 +74,7 @@
   line-height: 1.04;
   color: $dark;
   font-size: 48px;
+  width: 525px;
 }
 
 .respirators_description {
@@ -78,4 +89,118 @@
   span {
     font-weight: $bold;
   }
+}
+
+.second_article {
+  display: flex;
+  gap: 47px;
+  margin-top: 80px;
+}
+
+.second_article_img {
+  z-index: 1;
+}
+
+.man {
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.factory {
+  display: flex;
+  margin-top: 80px;
+  height: 616px;
+  padding: 0 390px;
+
+  &_img {
+    position: relative;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &_accent {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 285px;
+    height: 332px;
+    background-color: $blue;
+    color: $white;
+    padding: 60px 30px;
+
+    p {
+      font-family: $font-family-base;
+      font-weight: $regular;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+  }
+
+  &_description {
+    display: flex;
+
+    div {
+      width: 285px;
+      height: 332px;
+      p {
+        font-family: $font-family-base;
+        font-weight: $regular;
+        font-size: 15px;
+        line-height: 1.6;
+        padding: 80px 30px 132px;
+      }
+
+      .accent-descr {
+        background-color: $blue;
+        color: $white;
+        border-top-right-radius: 20px;
+      }
+    }
+  }
+}
+
+.factory_contacts {
+  width: 570px;
+  height: 284px;
+  background-color: $accent;
+  padding: 45px 40px 0 38px;
+  border-bottom-right-radius: 20px;
+}
+
+.contact_descr h3 {
+  font-family: $font-family-heading;
+  font-weight: $bold;
+  font-size: 20px;
+  line-height: 2.5;
+  color: $dark;
+}
+
+.contact_descr p {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  font-size: 15px;
+  line-height: 1.6;
+  width: 492px;
+  color: $black;
+  margin-top: 5px;
+}
+
+.contact_us {
+  display: flex;
+  margin-top: 26px;
+  gap: 81px;
+}
+
+.contact_tel {
+  display: flex;
+  gap: 13px;
+}
+
+.icon {
+  fill: $white;
 }
