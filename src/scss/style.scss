@@ -2,5 +2,12 @@
 @use "base/fonts";
 @use "base/reset";
 @use "base/global";
+
 @use "layout/header";
+@use "layout/footer";
 @use "layout/main";
+
+@use "sections/hero";
+@use "sections/about";
+@use "sections/sertification";
+@use "sections/advantages";

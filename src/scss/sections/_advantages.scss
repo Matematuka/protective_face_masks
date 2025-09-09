@@ -1,0 +1,85 @@
+@use "../base/variables" as *;
+
+.advantages {
+  padding: 0 390px;
+  background-color: $white;
+}
+
+.advantages_container {
+  display: flex;
+  gap: 90px;
+  height: 668px;
+}
+
+.advantages_image {
+  flex-shrink: 0;
+}
+
+.advantages_image img {
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.advantages_title {
+  font-family: $font-family-heading;
+  font-weight: $bold;
+  font-size: 48px;
+  line-height: 1.04;
+  color: $dark;
+}
+
+.advantages_descr {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  font-size: 16px;
+  line-height: 1.87;
+  color: $grey;
+  margin-top: 35px;
+}
+
+.achievements {
+  width: 650px;
+  margin-top: 35px;
+}
+
+.achievements_list {
+  display: flex;
+  row-gap: 23px;
+  column-gap: 26px;
+  flex-wrap: wrap;
+}
+
+.achievement_item {
+  width: calc((100% - 26px) / 2);
+}
+
+.achievement_item h4 {
+  font-family: $font-family-heading;
+  font-weight: $bold;
+  font-size: 20px;
+  line-height: 1.4;
+  width: 238px;
+  color: $dark;
+}
+
+.achievement_item p {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.47;
+  color: $grey;
+  margin-top: 2px;
+}
+
+.achievement_icon {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+}
+
+.item_container {
+  display: flex;
+  gap: 17px;
+}

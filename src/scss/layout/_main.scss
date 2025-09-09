@@ -1,10 +1,1 @@
-@use "base/reset";
-@use "base/variables";
-@use "base/global";
-@use "base/fonts";
-
-@use "layout/header";
-@use "layout/footer";
-@use "sections/hero";
-@use "sections/about";
-@use "sections/sertification";
+@use "../base/variables" as *;

@@ -1,11 +1,11 @@
 @use "../base/variables" as *;
 
 .sertification {
-  padding: 0 390px;
-  margin-top: 80px;
+  padding: 80px 390px;
+  background-color: $white;
 }
 
-.sertifiation_box {
+.sertifiation_container {
   display: flex;
   gap: 103px;
 }
