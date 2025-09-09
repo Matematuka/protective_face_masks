@@ -190,15 +190,28 @@
   margin-top: 5px;
 }
 
-.contact_us {
+.contact_info {
   display: flex;
   margin-top: 26px;
-  gap: 81px;
+  gap: 41px;
 }
 
 .contact_tel {
   display: flex;
   gap: 13px;
+  position: relative;
+  padding-left: 40px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 46px;
+    background-color: $white;
+  }
 }
 
 .phone {
@@ -206,4 +219,37 @@
   height: 46px;
   border-radius: 50%;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contact_btn {
+  font-family: $font-family-heading;
+  font-weight: $medium;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: center;
+  width: 125px;
+  height: 46px;
+  border: 1px solid $blue;
+  border-radius: 8px;
+  padding: 8px 24px;
+  background-color: transparent;
+  color: $blue;
+}
+
+.contact_us {
+  span {
+    font-family: $font-family-base;
+    font-weight: $semibold;
+    font-size: 14px;
+    line-height: 1.71;
+    color: $blue;
+  }
+
+  p {
+    font-family: $font-family-base;
+    font-weight: $semibold;
+    font-size: 24px;
+    line-height: 1;
+    color: $black;
+  }
 }

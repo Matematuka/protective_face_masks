@@ -1,0 +1,53 @@
+@use "../base/variables" as *;
+
+.sertification {
+  padding: 0 390px;
+  margin-top: 80px;
+}
+
+.sertifiation_box {
+  display: flex;
+  gap: 103px;
+}
+
+.sertification_text {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  font-size: 15px;
+  line-height: 1.6;
+  color: $grey;
+  align-self: center;
+  position: relative;
+  padding-right: 163px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(50%);
+    width: 147px;
+    height: 1px;
+    background-color: $accent;
+  }
+}
+
+.certificates_list {
+  display: flex;
+  gap: 100px;
+}
+
+.fda_icon {
+  width: 66px;
+  height: 80px;
+}
+
+.nelson_icon {
+  width: 126px;
+  height: 80px;
+}
+
+.cnas_icon {
+  width: 105px;
+  height: 80px;
+}
