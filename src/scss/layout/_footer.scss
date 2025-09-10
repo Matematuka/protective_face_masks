@@ -1,0 +1,58 @@
+@use "../base/variables" as *;
+
+.adress_container {
+  display: flex;
+  gap: 113px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 390px;
+  background-color: $accent;
+}
+
+.adress {
+  display: flex;
+  gap: 15px;
+}
+
+.adress:not(:last-child) {
+  padding-right: 136px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.adress span {
+  font-family: $font-family-heading;
+  font-weight: $medium;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $dark;
+}
+
+.adress p {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  font-size: 15px;
+  line-height: 1.33;
+  color: $dark;
+  margin-top: 1px;
+}
+
+.location_icon {
+  position: relative;
+  top: 6px;
+  width: 32px;
+  height: 26px;
+}
+
+.adress_icon {
+  position: relative;
+  top: 6px;
+  width: 32px;
+  height: 32px;
+}
+
+.mail_icon {
+  position: relative;
+  top: 6px;
+  width: 32px;
+  height: 23px;
+}
