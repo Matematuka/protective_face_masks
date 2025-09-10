@@ -27,11 +27,8 @@
 }
 
 .adress p {
-  font-family: $font-family-base;
-  font-weight: $regular;
   font-size: 15px;
   line-height: 1.33;
-  color: $dark;
   margin-top: 1px;
 }
 
@@ -57,9 +54,6 @@
 }
 
 .footer_bottom {
-  font-family: $font-family-base;
-  font-weight: $regular;
-  color: $grey;
   background-color: $footer_background;
   padding: 0 390px;
 }
