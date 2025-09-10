@@ -2,8 +2,7 @@
 
 .adress_container {
   display: flex;
-  gap: 113px;
-  justify-content: center;
+  gap: 173px;
   align-items: center;
   padding: 40px 390px;
   background-color: $accent;
@@ -16,7 +15,7 @@
 
 .adress:not(:last-child) {
   padding-right: 136px;
-  border-right: 1px solid #e0e0e0;
+  border-right: 1px solid $footer_background;
 }
 
 .adress span {
@@ -55,4 +54,83 @@
   top: 6px;
   width: 32px;
   height: 23px;
+}
+
+.footer_bottom {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  color: $grey;
+  background-color: $footer_background;
+  padding: 0 390px;
+}
+
+.footer_bottom_container {
+  display: flex;
+  gap: 300px;
+  padding: 73px 0 58px;
+}
+
+.footer_logo {
+  width: 192px;
+  height: 133px;
+  margin-bottom: 20px;
+}
+
+.footer_bottom_about p {
+  font-size: 15px;
+  line-height: 1.6;
+  line-height: 1.5;
+  max-width: 340px;
+  margin-top: 33px;
+}
+
+.footer_links,
+.footer_social {
+  width: 100px;
+  height: 183px;
+}
+
+.footer_links h3,
+.footer_social h3 {
+  font-weight: $medium;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.footer_links ul,
+.footer_social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_links li,
+.footer_social li {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.footer_links a,
+.footer_social a {
+  text-decoration: none;
+}
+
+.copyright {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2.14;
+  padding: 30px 0;
+
+  & ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+    background-color: #e1e6ec;
+  }
 }

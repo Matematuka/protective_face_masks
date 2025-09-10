@@ -37,7 +37,12 @@
   text-align: center;
   color: $white;
   background-color: $blue;
+
   border-radius: 8px;
   margin-left: 45px;
   flex-shrink: 0;
+
+  &:hover {
+    background-color: $accent;
+  }
 }

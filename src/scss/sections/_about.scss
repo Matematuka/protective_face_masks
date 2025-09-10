@@ -1,6 +1,11 @@
 @use "../base/variables" as *;
 
 .about {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  font-size: $font-size-base;
+  line-height: 1.5;
+  color: $grey;
   background-color: $white;
 }
 
@@ -23,7 +28,6 @@
 .advantage_list {
   display: flex;
   gap: 31px;
-  justify-content: center;
   width: 100%;
 }
 
@@ -70,20 +74,13 @@
 }
 
 .respirators_title {
-  font-family: $font-family-heading;
-  font-weight: $bold;
   line-height: 1.04;
-  color: $dark;
   font-size: 48px;
   width: 525px;
 }
 
 .respirators_description {
-  font-family: $font-family-base;
-  font-weight: $regular;
-  font-size: 16px;
   line-height: 1.87;
-  color: $grey;
   max-width: 510px;
   margin-top: 26px;
 
@@ -135,8 +132,6 @@
     padding: 60px 30px;
 
     p {
-      font-family: $font-family-base;
-      font-weight: $regular;
       font-size: 15px;
       line-height: 1.6;
     }
@@ -149,8 +144,6 @@
       width: 285px;
       height: 332px;
       p {
-        font-family: $font-family-base;
-        font-weight: $regular;
         font-size: 15px;
         line-height: 1.6;
         padding: 80px 30px 132px;
@@ -174,16 +167,11 @@
 }
 
 .contact_descr h3 {
-  font-family: $font-family-heading;
-  font-weight: $bold;
   font-size: 20px;
   line-height: 2.5;
-  color: $dark;
 }
 
 .contact_descr p {
-  font-family: $font-family-base;
-  font-weight: $regular;
   font-size: 15px;
   line-height: 1.6;
   width: 492px;
@@ -233,13 +221,16 @@
   border: 1px solid $blue;
   border-radius: 8px;
   padding: 8px 24px;
-  background-color: transparent;
   color: $blue;
+
+  &:hover {
+    background-color: $blue;
+    color: $white;
+  }
 }
 
 .contact_us {
   span {
-    font-family: $font-family-base;
     font-weight: $semibold;
     font-size: 14px;
     line-height: 1.71;
@@ -247,7 +238,6 @@
   }
 
   p {
-    font-family: $font-family-base;
     font-weight: $semibold;
     font-size: 24px;
     line-height: 1;

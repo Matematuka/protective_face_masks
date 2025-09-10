@@ -11,20 +11,13 @@
 }
 
 .conclusion_title {
-  font-family: $font-family-heading;
-  font-weight: $bold;
   font-size: 48px;
   line-height: 1.04;
   text-align: center;
-  color: $dark;
 }
 
 .conclusion_text {
-  font-family: $font-family-base;
-  font-weight: $regular;
-  font-size: 16px;
   line-height: 1.87;
-  color: $grey;
   width: 664px;
   text-align: center;
   margin: 0 auto;
@@ -44,4 +37,8 @@
   box-shadow: 0 10px 15px 0 rgba(27, 95, 193, 0.19);
   border-radius: 8px;
   margin-top: 35px;
+
+  &:hover {
+    background-color: $accent;
+  }
 }

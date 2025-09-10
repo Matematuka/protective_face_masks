@@ -1,6 +1,8 @@
 @use "../base/variables" as *;
 
 .advantages {
+  font-family: $font-family-base;
+  font-weight: $regular;
   padding: 0 390px;
   background-color: $white;
 }
@@ -22,19 +24,12 @@
 }
 
 .advantages_title {
-  font-family: $font-family-heading;
-  font-weight: $bold;
   font-size: 48px;
   line-height: 1.04;
-  color: $dark;
 }
 
 .advantages_descr {
-  font-family: $font-family-base;
-  font-weight: $regular;
-  font-size: 16px;
   line-height: 1.87;
-  color: $grey;
   margin-top: 35px;
 }
 
@@ -55,21 +50,14 @@
 }
 
 .achievement_item h4 {
-  font-family: $font-family-heading;
-  font-weight: $bold;
   font-size: 20px;
   line-height: 1.4;
   width: 238px;
-  color: $dark;
 }
 
 .achievement_item p {
-  font-family: $font-family-base;
-  font-weight: $regular;
-  font-weight: 400;
   font-size: 15px;
   line-height: 1.47;
-  color: $grey;
   margin-top: 2px;
 }
 

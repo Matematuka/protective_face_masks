@@ -1,6 +1,11 @@
 @use "../base/variables" as *;
 
 .hero {
+  font-family: $font-family-base;
+  font-weight: $regular;
+  font-size: $font-size-base;
+  line-height: 1.5;
+  color: $grey;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -25,11 +30,9 @@
 }
 
 .hero_title {
-  font-family: $font-family-heading;
-  font-weight: $bold;
   font-size: 72px;
   line-height: 1.14;
-  color: $dark;
+
   margin-top: 30px;
 }
 
@@ -55,7 +58,12 @@
   height: 46px;
   color: $white;
   background-color: $blue;
+
   box-shadow: 0 10px 15px 0 rgba(27, 95, 193, 0.19);
+
+  &:hover {
+    background-color: $accent;
+  }
 }
 
 .learn_more {
@@ -70,6 +78,11 @@
   width: 125px;
   height: 46px;
   color: $accent;
+
+  &:hover {
+    background-color: $accent;
+    color: $white;
+  }
 }
 
 .hero_img {
