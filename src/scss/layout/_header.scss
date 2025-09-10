@@ -22,6 +22,27 @@
   margin-left: auto;
 }
 
+.menu_link {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: $accent;
+    transition: width 0.3s ease;
+  }
+}
+
+.menu_link:not(.menu_link-active):hover::after {
+  width: 100%;
+}
+
 .menu_link-active {
   color: $dark;
   line-height: 1.87;
