@@ -67,3 +67,13 @@
     background-color: $accent;
   }
 }
+
+@media (max-width: 1440px) {
+  .header_container {
+    padding: 20px 180px 0;
+  }
+
+  .menu_navigation {
+    gap: 40px;
+  }
+}

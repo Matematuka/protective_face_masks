@@ -48,3 +48,18 @@
   width: 105px;
   height: 80px;
 }
+
+@media (max-width: 1440px) {
+  .sertification {
+    padding: 80px 180px;
+  }
+
+  .sertifiation_container {
+    display: flex;
+    gap: 100px;
+  }
+
+  .sertification_text {
+    padding-right: 160px;
+  }
+}

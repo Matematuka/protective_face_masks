@@ -71,3 +71,13 @@
   display: flex;
   gap: 17px;
 }
+
+@media (max-width: 1440px) {
+  .advantages {
+    padding: 0 180px;
+  }
+
+  .advantages_container {
+    gap: 86px;
+  }
+}

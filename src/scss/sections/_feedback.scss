@@ -42,3 +42,8 @@
     background-color: $accent;
   }
 }
+@media (max-width: 1440px) {
+  .feedback {
+    padding: 25px 180px 120px;
+  }
+}

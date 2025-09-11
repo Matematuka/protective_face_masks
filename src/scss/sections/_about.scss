@@ -15,7 +15,6 @@
   height: 2000px;
   background-image: url("../../../dist/images/diagnostic-lab-content-gradient-bg\ 1.png");
   background-size: cover;
-  // z-index: -1;
 }
 
 .advantage {
@@ -242,5 +241,53 @@
     font-size: 24px;
     line-height: 1;
     color: $black;
+  }
+}
+
+@media (max-width: 1440px) {
+  .advantage {
+    padding: 0 180px;
+  }
+
+  .advantage_list {
+    gap: 28px;
+  }
+
+  .advantage_text {
+    width: 195px;
+  }
+
+  .respirators {
+    padding: 0 180px;
+    padding-top: 133px;
+  }
+
+  .first_article {
+    display: flex;
+    gap: 44px;
+  }
+
+  .respirators_title {
+    width: 520px;
+  }
+
+  .second_article {
+    gap: 44px;
+  }
+
+  .factory {
+    padding: 0 180px;
+
+    &_img {
+      position: relative;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+  .contact_info {
+    gap: 38px;
   }
 }
