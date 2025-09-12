@@ -49,8 +49,17 @@ main {
 }
 
 button {
+  font-family: $font-family-heading;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
+  body {
+    font-size: 15px;
+  }
+
+  .background {
+    width: 52%;
+    height: 801px;
+  }
 }

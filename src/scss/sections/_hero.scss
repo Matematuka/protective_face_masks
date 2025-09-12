@@ -42,11 +42,11 @@
 .button_group {
   display: flex;
   gap: 20px;
+  height: 44px;
   margin-top: 54px;
 }
 
 .shop_now {
-  font-family: $font-family-heading;
   font-weight: $medium;
   font-size: 14px;
   line-height: 2.14;
@@ -57,7 +57,6 @@
   height: 46px;
   color: $white;
   background-color: $blue;
-
   box-shadow: 0 10px 15px 0 rgba(27, 95, 193, 0.19);
 
   &:hover {
@@ -66,7 +65,6 @@
 }
 
 .learn_more {
-  font-family: $font-family-heading;
   font-weight: $medium;
   font-size: 14px;
   line-height: 2.14;
@@ -105,5 +103,54 @@
 
   .hero_img {
     left: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    padding: 60px 150px 0;
+  }
+
+  .hero_container {
+    gap: 80px;
+  }
+
+  .hero_info {
+    max-width: 500px;
+  }
+
+  .hero_title {
+    font-size: 62px;
+    margin-top: 25px;
+  }
+
+  .hero_text {
+    margin-top: 36px;
+  }
+
+  .button_group {
+    display: flex;
+    gap: 18px;
+    margin-top: 48px;
+  }
+
+  .shop_now {
+    width: 110px;
+    padding: 6px 20px;
+    box-shadow: 0 8px 12px 0 rgba(27, 95, 193, 0.19);
+  }
+
+  .learn_more {
+    width: 118px;
+    padding: 6px 20px;
+  }
+
+  .hero_img {
+    left: 9px;
+  }
+
+  .woman_1 {
+    width: 450px;
+    height: 680px;
   }
 }

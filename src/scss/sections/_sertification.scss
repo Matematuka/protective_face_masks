@@ -63,3 +63,42 @@
     padding-right: 160px;
   }
 }
+
+@media (max-width: 1200px) {
+  .sertification {
+    padding: 60px 150px;
+  }
+
+  .sertifiation_container {
+    gap: 97px;
+  }
+
+  .sertification_text {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-right: 154px;
+
+    &::after {
+      width: 139px;
+    }
+  }
+
+  .certificates_list {
+    gap: 90px;
+  }
+
+  .fda_icon {
+    width: 64px;
+    height: 75px;
+  }
+
+  .nelson_icon {
+    width: 119px;
+    height: 75px;
+  }
+
+  .cnas_icon {
+    width: 99px;
+    height: 75px;
+  }
+}

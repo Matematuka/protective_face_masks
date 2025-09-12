@@ -1,11 +1,7 @@
 @use "../base/variables" as *;
 
 .about {
-  font-family: $font-family-base;
-  font-weight: $regular;
-  font-size: $font-size-base;
   line-height: 1.5;
-  color: $grey;
   background-color: $white;
 }
 
@@ -95,6 +91,7 @@
 }
 
 .second_article_img {
+  flex-shrink: 0;
   z-index: 1;
 }
 
@@ -210,7 +207,6 @@
 }
 
 .contact_btn {
-  font-family: $font-family-heading;
   font-weight: $medium;
   font-size: 14px;
   line-height: 2.14;
@@ -250,11 +246,11 @@
   }
 
   .advantage_list {
-    gap: 28px;
+    gap: 30px;
   }
 
-  .advantage_text {
-    width: 195px;
+  .advantage_item {
+    width: 256px;
   }
 
   .respirators {
@@ -263,7 +259,6 @@
   }
 
   .first_article {
-    display: flex;
     gap: 44px;
   }
 
@@ -276,11 +271,10 @@
   }
 
   .factory {
-    padding: 0 180px;
+    justify-content: center;
+    padding: 0 110px 0 170px;
 
     &_img {
-      position: relative;
-
       img {
         height: 100%;
       }
@@ -289,5 +283,180 @@
 
   .contact_info {
     gap: 38px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .full_bg {
+    height: 1800px;
+  }
+
+  .advantage {
+    padding: 0 150px;
+    margin-top: 65px;
+  }
+
+  .advantage_list {
+    gap: 28px;
+  }
+
+  .advantage_item {
+    gap: 18px;
+    width: 250px;
+    height: 177px;
+
+    h4 {
+      width: 145px;
+    }
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .advantage_text {
+    margin-top: 12px;
+    width: 161px;
+  }
+
+  .respirators {
+    padding: 0 150px;
+    padding-top: 120px;
+  }
+
+  .first_article {
+    gap: 42px;
+  }
+
+  .woman_2 {
+    width: 5515px;
+    height: 555px;
+  }
+
+  .respirators_title {
+    font-size: 45px;
+    width: 495px;
+  }
+
+  .respirators_description {
+    line-height: 1.7;
+    max-width: 485px;
+    margin-top: 24px;
+  }
+
+  .second_article {
+    gap: 44px;
+    margin-top: 60px;
+  }
+
+  .man {
+    width: 510px;
+    height: 555px;
+  }
+
+  .factory {
+    padding: 0 50px 0 150px;
+    margin-top: 60px;
+    height: 555px;
+
+    &_img {
+      position: relative;
+
+      img {
+        width: 515px;
+        height: 100%;
+      }
+    }
+    &_accent {
+      width: 230px;
+      height: 290px;
+      padding: 40px 25px;
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+
+    &_description {
+      div {
+        width: 265px;
+        height: 295px;
+        p {
+          font-size: 14px;
+          line-height: 1.5;
+          padding: 50px 28px 140px;
+        }
+      }
+    }
+  }
+
+  .factory_contacts {
+    width: 530px;
+    height: 260px;
+    background-color: $accent;
+    padding: 35px 30px 0 30px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .contact_descr h3 {
+    font-size: 18px;
+    line-height: 2.2;
+  }
+
+  .contact_descr p {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 438px;
+    margin-top: 4px;
+  }
+
+  .contact_info {
+    margin-top: 24px;
+    gap: 37px;
+  }
+
+  .contact_tel {
+    gap: 11px;
+    padding-left: 36px;
+
+    &::before {
+      height: 42px;
+    }
+  }
+
+  .phone {
+    width: 42px;
+    height: 42px;
+  }
+
+  .contact_btn {
+    font-weight: $medium;
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: center;
+    width: 118px;
+    height: 42px;
+    border: 1px solid $blue;
+    border-radius: 8px;
+    padding: 6px 22px;
+    color: $blue;
+
+    &:hover {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+
+  .contact_us {
+    span {
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    p {
+      font-size: 22px;
+    }
   }
 }
