@@ -14,7 +14,7 @@
 
 .hero_container {
   display: flex;
-  gap: 88px;
+  gap: 48px;
 }
 
 .hero_info {
@@ -84,7 +84,7 @@
 
 .hero_img {
   position: relative;
-  right: 0;
+  left: 40px;
   flex-shrink: 0;
 }
 
@@ -98,11 +98,20 @@
 
 @media (max-width: 1440px) {
   .hero {
-    padding: 80px 180px 0;
+    padding: 80px 150px 0;
+  }
+
+  .hero_container {
+    display: flex;
+    gap: 60px;
   }
 
   .hero_img {
-    left: 20px;
+    left: 43px;
+  }
+
+  .woman_1 {
+    width: 486px;
   }
 }
 

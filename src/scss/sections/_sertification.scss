@@ -51,7 +51,7 @@
 
 @media (max-width: 1440px) {
   .sertification {
-    padding: 80px 180px;
+    padding: 80px 150px;
   }
 
   .sertifiation_container {
@@ -70,21 +70,21 @@
   }
 
   .sertifiation_container {
-    gap: 97px;
+    gap: 90px;
   }
 
   .sertification_text {
     font-size: 14px;
     line-height: 1.5;
-    padding-right: 154px;
+    padding-right: 140px;
 
     &::after {
-      width: 139px;
+      width: 120px;
     }
   }
 
   .certificates_list {
-    gap: 90px;
+    gap: 80px;
   }
 
   .fda_icon {

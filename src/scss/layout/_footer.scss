@@ -73,7 +73,6 @@
 
 .footer_bottom_about p {
   font-size: 15px;
-  line-height: 1.6;
   line-height: 1.5;
   max-width: 340px;
   margin-top: 33px;
@@ -131,7 +130,7 @@
 @media (max-width: 1440px) {
   .adress_container {
     gap: 102px;
-    padding: 40px 180px;
+    padding: 40px 150px;
   }
 
   .adress:not(:last-child) {
@@ -139,10 +138,83 @@
   }
 
   .footer_bottom {
-    padding: 0 180px;
+    padding: 0 150px;
   }
 
   .footer_bottom_container {
     gap: 290px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .adress_container {
+    gap: 100px;
+    padding: 35px 150px;
+  }
+
+  .adress {
+    gap: 10px;
+  }
+
+  .adress:not(:last-child) {
+    padding-right: 70px;
+  }
+
+  .adress span {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .adress p {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .location_icon {
+    top: 5px;
+    width: 28px;
+    height: 25px;
+  }
+
+  .adress_icon {
+    top: 5px;
+    width: 28px;
+    height: 30px;
+  }
+
+  .mail_icon {
+    top: 5px;
+    width: 28px;
+    height: 21px;
+  }
+
+  .footer_bottom_container {
+    gap: 250px;
+    padding: 65px 0 50px;
+  }
+
+  .footer_bottom_about p {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-top: 30px;
+  }
+
+  .footer_links,
+  .footer_social {
+    width: 120px;
+    height: 175px;
+  }
+
+  .footer_links h3,
+  .footer_social h3 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .footer_links li,
+  .footer_social li {
+    font-size: 15px;
+    line-height: 1.8;
   }
 }

@@ -1,8 +1,6 @@
 @use "../base/variables" as *;
 
 .advantages {
-  font-family: $font-family-base;
-  font-weight: $regular;
   padding: 0 390px;
   background-color: $white;
 }
@@ -74,10 +72,65 @@
 
 @media (max-width: 1440px) {
   .advantages {
-    padding: 0 180px;
+    padding: 0 150px;
   }
 
   .advantages_container {
     gap: 86px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .advantages_container {
+    gap: 40px;
+  }
+
+  .advantages_text {
+    max-width: 460px;
+  }
+
+  .advantages_title {
+    font-size: 42px;
+    line-height: 1;
+  }
+
+  .advantages_descr {
+    line-height: 1.8;
+    margin-top: 30px;
+  }
+
+  .achievements {
+    width: 450px;
+    margin-top: 30px;
+  }
+
+  .achievements_list {
+    row-gap: 20px;
+    column-gap: 22px;
+  }
+
+  .achievement_item {
+    width: calc((100% - 22px) / 2);
+  }
+
+  .achievement_item h4 {
+    font-size: 18px;
+    line-height: 1.4;
+    width: 190px;
+  }
+
+  .achievement_item p {
+    max-width: 175px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .achievement_icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .item_container {
+    gap: 15px;
   }
 }

@@ -23,13 +23,12 @@
 .advantage_list {
   display: flex;
   gap: 31px;
-  width: 100%;
 }
 
 .advantage_item {
   display: flex;
   gap: 20px;
-  width: 270px;
+  width: calc((100% - 93px) / 4);
   height: 179px;
 
   h4 {
@@ -242,7 +241,7 @@
 
 @media (max-width: 1440px) {
   .advantage {
-    padding: 0 180px;
+    padding: 0 150px;
   }
 
   .advantage_list {
@@ -254,7 +253,7 @@
   }
 
   .respirators {
-    padding: 0 180px;
+    padding: 0 150px;
     padding-top: 133px;
   }
 
@@ -271,8 +270,12 @@
   }
 
   .factory {
+    width: 100%;
+    max-width: none;
+    opacity: 1;
     justify-content: center;
-    padding: 0 110px 0 170px;
+    background-color: $white;
+    padding: 0 150px;
 
     &_img {
       img {
@@ -326,37 +329,37 @@
   }
 
   .first_article {
-    gap: 42px;
+    gap: 40px;
   }
 
   .woman_2 {
-    width: 5515px;
+    width: 440px;
     height: 555px;
   }
 
   .respirators_title {
     font-size: 45px;
-    width: 495px;
+    max-width: 430px;
   }
 
   .respirators_description {
-    line-height: 1.7;
-    max-width: 485px;
+    line-height: 1.6;
+    width: 422px;
     margin-top: 24px;
   }
 
   .second_article {
-    gap: 44px;
+    gap: 40px;
     margin-top: 60px;
   }
 
   .man {
-    width: 510px;
-    height: 555px;
+    width: 430px;
+    height: 600px;
   }
 
   .factory {
-    padding: 0 50px 0 150px;
+    padding: 0 150px;
     margin-top: 60px;
     height: 555px;
 
@@ -381,19 +384,19 @@
 
     &_description {
       div {
-        width: 265px;
+        width: 225px;
         height: 295px;
         p {
           font-size: 14px;
           line-height: 1.5;
-          padding: 50px 28px 140px;
+          padding: 50px 28px 120px;
         }
       }
     }
   }
 
   .factory_contacts {
-    width: 530px;
+    width: 450px;
     height: 260px;
     background-color: $accent;
     padding: 35px 30px 0 30px;
@@ -407,14 +410,14 @@
 
   .contact_descr p {
     font-size: 14px;
-    line-height: 1.5;
-    width: 438px;
+    line-height: 1.4;
+    width: 400px;
     margin-top: 4px;
   }
 
   .contact_info {
     margin-top: 24px;
-    gap: 37px;
+    gap: 30px;
   }
 
   .contact_tel {
@@ -434,13 +437,13 @@
   .contact_btn {
     font-weight: $medium;
     font-size: 14px;
-    line-height: 2.14;
+    line-height: 2.1;
     text-align: center;
     width: 118px;
     height: 42px;
     border: 1px solid $blue;
     border-radius: 8px;
-    padding: 6px 22px;
+    padding: 6px 18px;
     color: $blue;
 
     &:hover {
@@ -456,7 +459,7 @@
     }
 
     p {
-      font-size: 22px;
+      font-size: 19px;
     }
   }
 }
