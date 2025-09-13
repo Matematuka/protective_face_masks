@@ -71,3 +71,28 @@
     margin-top: 30px;
   }
 }
+
+@media (max-width: 1024px) {
+  .feedback {
+    padding: 25px 120px 80px;
+  }
+
+  .conclusion {
+    margin-top: 60px;
+  }
+
+  .conclusion_title {
+    font-size: 36px;
+  }
+
+  .conclusion_text {
+    line-height: 1.7;
+    width: 550px;
+  }
+
+  .feedback_btn {
+    font-size: 14px;
+    height: 40px;
+    margin-top: 20px;
+  }
+}

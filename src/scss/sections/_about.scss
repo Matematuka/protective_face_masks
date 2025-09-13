@@ -445,11 +445,6 @@
     border-radius: 8px;
     padding: 6px 18px;
     color: $blue;
-
-    &:hover {
-      background-color: $blue;
-      color: $white;
-    }
   }
 
   .contact_us {
@@ -460,6 +455,165 @@
 
     p {
       font-size: 19px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    line-height: 1.4;
+    font-size: 14px;
+    background-color: $white;
+  }
+
+  .full_bg {
+    height: 1500px;
+  }
+
+  .advantage {
+    margin-top: 60px;
+  }
+
+  .advantage_list {
+    gap: 0px;
+  }
+  .advantage_item {
+    gap: 16px;
+    width: 200px;
+    height: 170px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .advantage_text {
+    margin-top: 10px;
+    width: 150px;
+  }
+
+  .respirators {
+    padding: 0 125px;
+    padding-top: 100px;
+  }
+
+  .first_article {
+    gap: 25px;
+  }
+
+  .woman_2 {
+    width: 376px;
+    height: 550px;
+  }
+
+  .respirators_title {
+    font-size: 40px;
+    max-width: 375px;
+  }
+
+  .respirators_description {
+    line-height: 1.5;
+    width: 375px;
+    margin-top: 22px;
+  }
+  .second_article {
+    gap: 25px;
+    margin-top: 50px;
+  }
+
+  .man {
+    width: 375px;
+    height: 550px;
+  }
+
+  .factory {
+    padding: 0 125px;
+    margin-top: 60px;
+    height: 500px;
+
+    &_img {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &_accent {
+      width: 200px;
+      height: 250px;
+      padding: 20px;
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+
+    &_description {
+      div {
+        width: 188px;
+        height: 230px;
+        p {
+          font-size: 14px;
+          line-height: 1.5;
+          padding: 20px 20px 63px;
+        }
+      }
+    }
+  }
+
+  .factory_contacts {
+    width: 376px;
+    height: 270px;
+    padding: 50px 20px;
+  }
+
+  .contact_descr h3 {
+    font-size: 16px;
+    line-height: 2.1;
+  }
+
+  .contact_descr p {
+    width: 350px;
+    margin-top: 3px;
+  }
+
+  .contact_info {
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .contact_tel {
+    gap: 10px;
+    padding-left: 3px;
+
+    &::before {
+      height: 4px;
+    }
+  }
+
+  .phone {
+    width: 40x;
+    height: 40x;
+  }
+
+  .contact_btn {
+    line-height: 2;
+    width: 110px;
+    height: 40px;
+    padding: 6px 18px;
+  }
+
+  .contact_us {
+    span {
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    p {
+      font-size: 16px;
     }
   }
 }

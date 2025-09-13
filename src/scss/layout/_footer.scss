@@ -218,3 +218,49 @@
     line-height: 1.8;
   }
 }
+
+@media (max-width: 1024px) {
+  .adress_container {
+    gap: 75px;
+    padding: 20px 125px;
+  }
+
+  .adress:not(:last-child) {
+    padding-right: 50px;
+  }
+
+  .adress span {
+    font-size: 15px;
+  }
+
+  .adress p {
+    line-height: 1.1;
+    font-size: 13px;
+  }
+
+  .footer_bottom {
+    padding: 0 125px;
+  }
+
+  .footer_bottom_container {
+    display: flex;
+    gap: 180px;
+    padding: 60px 0 50px;
+  }
+
+  .footer_bottom_about {
+    width: 250px;
+  }
+
+  .footer_links li,
+  .footer_social li {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .copyright {
+    font-size: 13px;
+    line-height: 2;
+    padding: 20px 0;
+  }
+}

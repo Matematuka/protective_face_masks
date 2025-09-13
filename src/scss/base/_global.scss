@@ -70,5 +70,9 @@ button {
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 1024px) {
+  .background {
+    width: 55%;
+    height: 700px;
+  }
 }

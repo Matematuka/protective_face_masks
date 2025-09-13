@@ -102,3 +102,25 @@
     height: 75px;
   }
 }
+
+@media (max-width: 1024px) {
+  .sertification {
+    padding: 60px 125px;
+  }
+
+  .sertifiation_container {
+    gap: 80px;
+  }
+
+  .sertification_text {
+    padding-right: 120px;
+
+    &::after {
+      width: 110px;
+    }
+  }
+
+  .certificates_list {
+    gap: 60px;
+  }
+}

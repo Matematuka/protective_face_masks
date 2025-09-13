@@ -1,11 +1,7 @@
 @use "../base/variables" as *;
 
 .hero {
-  font-family: $font-family-base;
-  font-weight: $regular;
-  font-size: $font-size-base;
   line-height: 1.5;
-  color: $grey;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -138,7 +134,6 @@
   }
 
   .button_group {
-    display: flex;
     gap: 18px;
     margin-top: 48px;
   }
@@ -161,5 +156,59 @@
   .woman_1 {
     width: 450px;
     height: 680px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    line-height: 1.4;
+    padding: 60px 125px 0;
+  }
+
+  .hero_container {
+    display: flex;
+    gap: 60px;
+  }
+
+  .hero_info {
+    max-width: 300px;
+  }
+
+  .hero_text_accent {
+    font-size: 13px;
+    line-height: 2;
+  }
+
+  .hero_title {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-top: 28px;
+  }
+
+  .hero_text {
+    margin-top: 30px;
+  }
+
+  .button_group {
+    height: 40px;
+    margin-top: 45px;
+  }
+
+  .shop_now {
+    box-shadow: 0 6px 10px 0 rgba(27, 95, 193, 0.19);
+  }
+
+  .learn_more {
+    width: 115px;
+    padding: 6px 18px;
+  }
+
+  .hero_img {
+    left: 0;
+  }
+
+  .woman_1 {
+    width: 415px;
+    height: 575px;
   }
 }
