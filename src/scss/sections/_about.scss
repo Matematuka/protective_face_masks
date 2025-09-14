@@ -931,3 +931,150 @@
     }
   }
 }
+
+@media (max-width: 320px) {
+  .about {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+
+  .full_bg {
+    display: none;
+  }
+
+  .advantage {
+    padding: 0 20px;
+  }
+
+  .advantage_list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantage_item {
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+
+    h4 {
+      width: 130px;
+    }
+  }
+
+  .icon {
+    display: block;
+    width: 20px;
+  }
+
+  .advantage_text {
+    margin-top: 10px;
+    width: 165px;
+  }
+
+  .respirators {
+    padding: 0 20px;
+    padding-top: 20px;
+  }
+
+  .first_article-img {
+    display: none;
+  }
+
+  .respirators_title {
+    line-height: 1;
+    font-size: 24px;
+    max-width: 300px;
+  }
+
+  .respirators_description {
+    max-width: 280px;
+    margin-top: 10px;
+  }
+
+  .second_article {
+    gap: 0;
+    margin-top: 20px;
+  }
+
+  .second_article_img {
+    display: none;
+  }
+
+  .factory {
+    margin-top: 15px;
+    height: 470px;
+    padding: 0 20px;
+
+    &_img {
+      display: none;
+    }
+    &_accent {
+      display: none;
+    }
+
+    &_description {
+      div {
+        width: 140px;
+        height: 200px;
+        p {
+          font-size: 12px;
+          line-height: 1.3;
+          padding: 20px 15px 56px;
+        }
+      }
+    }
+  }
+
+  .factory_contacts {
+    width: 280px;
+  }
+
+  .contact_descr h3 {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .contact_descr p {
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .contact_info {
+    gap: 10px;
+  }
+
+  .contact_btn {
+    font-size: 11px;
+    line-height: 1.2;
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+  }
+
+  .contact_tel {
+    align-items: center;
+    padding-left: 15px;
+
+    &::before {
+      height: 40px;
+    }
+  }
+
+  .phone {
+    top: 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  .contact_us {
+    span {
+      font-size: 13px;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+}

@@ -200,3 +200,20 @@
     height: 70px;
   }
 }
+
+@media (max-width: 320px) {
+  .sertification {
+    padding: 40px 20px;
+  }
+
+  .sertifiation_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .certificates_list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
