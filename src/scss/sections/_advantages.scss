@@ -199,3 +199,109 @@
     gap: 8px;
   }
 }
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .advantages {
+    padding: 0 60px;
+  }
+
+  .advantages_container {
+    gap: 20px;
+    height: 500px;
+  }
+
+  .advantages_image img {
+    max-width: 300px;
+    height: 500px;
+  }
+
+  .advantages_text {
+    max-width: 325px;
+  }
+
+  .advantages_title {
+    font-size: 24px;
+  }
+
+  .advantages_descr {
+    line-height: 1.3;
+  }
+
+  .achievements {
+    width: 325px;
+    margin-top: 20px;
+  }
+
+  .achievements_list {
+    row-gap: 15px;
+    column-gap: 17px;
+  }
+
+  .achievement_item {
+    width: calc((100% - 17px) / 2);
+  }
+
+  .achievement_icon {
+    display: none;
+  }
+
+  .achievement_item h4 {
+    font-size: 15px;
+    line-height: 1.2;
+    width: 160px;
+  }
+
+  .achievement_item p {
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .advantages {
+    padding: 0 20px;
+  }
+
+  .advantages_container {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
+
+  .advantages_image img {
+    width: 100%;
+  }
+
+  .advantages_text {
+    max-width: 324px;
+  }
+
+  .advantages_descr {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .achievements {
+    width: 324px;
+    margin-top: 15px;
+  }
+
+  .achievements_list {
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+
+  .achievement_item {
+    width: calc((100% - 15px) / 2);
+  }
+
+  .achievement_icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .achievement_item h4 {
+    font-size: 12px;
+    line-height: 1.2;
+    width: 140px;
+  }
+}

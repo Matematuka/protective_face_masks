@@ -124,3 +124,79 @@
     gap: 60px;
   }
 }
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .sertification {
+    padding: 40px 60px;
+  }
+
+  .sertifiation_container {
+    gap: 70px;
+  }
+
+  .sertification_text {
+    padding-right: 100px;
+
+    &::after {
+      width: 90px;
+    }
+  }
+
+  .certificates_list {
+    gap: 40px;
+  }
+
+  .fda_icon {
+    width: 55px;
+    height: 65px;
+  }
+
+  .nelson_icon {
+    width: 90px;
+    height: 65px;
+  }
+
+  .cnas_icon {
+    width: 80px;
+    height: 65px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .sertification {
+    padding: 60px 20px;
+  }
+
+  .sertifiation_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .sertification_text {
+    padding-right: 200px;
+
+    &::after {
+      width: 147px;
+    }
+  }
+
+  .certificates_list {
+    justify-content: space-between;
+  }
+
+  .fda_icon {
+    width: 50px;
+    height: 70px;
+  }
+
+  .nelson_icon {
+    width: 85px;
+    height: 70px;
+  }
+
+  .cnas_icon {
+    width: 80px;
+    height: 70px;
+  }
+}

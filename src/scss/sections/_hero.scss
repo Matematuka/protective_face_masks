@@ -10,11 +10,7 @@
 
 .hero_container {
   display: flex;
-  gap: 48px;
-}
-
-.hero_info {
-  max-width: 555px;
+  gap: 88px;
 }
 
 .hero_text_accent {
@@ -80,12 +76,12 @@
 
 .hero_img {
   position: relative;
-  left: 40px;
+  left: 0;
   flex-shrink: 0;
 }
 
 .woman_1 {
-  width: 496px;
+  max-width: 496px;
   height: 744px;
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -99,11 +95,7 @@
 
   .hero_container {
     display: flex;
-    gap: 60px;
-  }
-
-  .hero_img {
-    left: 43px;
+    gap: 68px;
   }
 
   .woman_1 {
@@ -140,21 +132,19 @@
 
   .shop_now {
     width: 110px;
+    height: 40px;
     padding: 6px 20px;
     box-shadow: 0 8px 12px 0 rgba(27, 95, 193, 0.19);
   }
 
   .learn_more {
     width: 118px;
+    height: 40px;
     padding: 6px 20px;
   }
 
-  .hero_img {
-    left: 9px;
-  }
-
   .woman_1 {
-    width: 450px;
+    max-width: 450px;
     height: 680px;
   }
 }
@@ -208,7 +198,89 @@
   }
 
   .woman_1 {
-    width: 415px;
+    max-width: 415px;
     height: 575px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .hero {
+    padding: 40px 60px 0;
+  }
+
+  .hero_info {
+    max-width: 400px;
+  }
+
+  .hero_title {
+    font-size: 46px;
+  }
+
+  .shop_now {
+    width: 90px;
+    height: 36px;
+    padding: 4px 12px;
+    box-shadow: 0 8px 12px 0 rgba(27, 95, 193, 0.19);
+  }
+
+  .learn_more {
+    width: 100px;
+    height: 36px;
+    padding: 4px 12px;
+  }
+
+  .woman_1 {
+    max-width: 350px;
+    height: 494px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .hero {
+    line-height: 1.4;
+    padding: 20px 20px 0;
+  }
+
+  .hero_info {
+    max-width: 450px;
+  }
+
+  .hero_container {
+    display: flex;
+    gap: 0;
+  }
+
+  .hero_text_accent {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .hero_title {
+    font-size: 38px;
+    line-height: 1;
+    margin-top: 15px;
+  }
+
+  .hero_text {
+    margin-top: 15px;
+  }
+
+  .shop_now {
+    font-size: 12px;
+    width: 70px;
+    height: 30px;
+    padding: 4px 6px;
+    box-shadow: 0 6px 10px 0 rgba(27, 95, 193, 0.19);
+  }
+
+  .hero_img {
+    display: none;
+  }
+
+  .learn_more {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    padding: 4px 6px;
   }
 }

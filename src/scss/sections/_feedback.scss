@@ -74,7 +74,7 @@
 
 @media (max-width: 1024px) {
   .feedback {
-    padding: 25px 120px 80px;
+    padding: 25px 125px 80px;
   }
 
   .conclusion {
@@ -94,5 +94,58 @@
     font-size: 14px;
     height: 40px;
     margin-top: 20px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .feedback {
+    padding: 20px 60px 40px;
+  }
+
+  .conclusion {
+    margin-top: 40px;
+  }
+
+  .conclusion_title {
+    font-size: 32px;
+  }
+
+  .conclusion_text {
+    line-height: 1.5;
+    width: 450px;
+  }
+
+  .feedback_btn {
+    font-size: 13px;
+    width: 90px;
+    height: 36px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .feedback {
+    padding: 20px 20px 40px;
+  }
+
+  .conclusion {
+    margin-top: 20px;
+  }
+
+  .conclusion_title {
+    font-size: 24px;
+  }
+
+  .conclusion_text {
+    font-size: 13px;
+    line-height: 1.3;
+    width: 300px;
+  }
+
+  .feedback_btn {
+    font-size: 12px;
+    width: 70px;
+    height: 30px;
+    padding: 4px 6px;
   }
 }
